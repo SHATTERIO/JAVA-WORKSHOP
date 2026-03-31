@@ -1,12 +1,19 @@
 package oop.workshop.unit1_classes;
 
 public class Car {
-    // TODO 1: Create a private String variable named 'brand'
-    // TODO 2: Create a private int variable named 'year'
+    private String brand;
+    private int year;
     
-    // TODO 3: Create a constructor that takes 'brand' and 'year' parameters
+    public Car(String brand, int year) {
+        this.brand = brand;
+        this.year = year;
+    }
     
-    // TODO 4: Create a public method named 'getBrand' that returns the brand
+    public String getBrand() {
+        return brand;
+    }
     
-    // TODO 5: Create a public method named 'getYear' that returns the year
+    public int getYear() {
+        return year;
+    }
 }
